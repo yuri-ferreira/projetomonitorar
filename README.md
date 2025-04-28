@@ -13,7 +13,7 @@
 4. Conclusão
 
 
-## Etapa 01 - Configuração do Ambiente
+## Etapa 1 - Configuração do Ambiente
 
 <p>Para configurar o ambiente foi utilizada a ferramenta Subsystem do Windows para a instalação do Ubuntu</p>
 
@@ -25,7 +25,7 @@
 
 ___
 
-## Etapa 02 - Configuração do Servidor Web
+## Etapa 2 - Configuração do Servidor Web
 
 <p>Para configurar o servidor web no Ubuntu foi utilizado o gerenciador de pacotes: <strong>APT-GET</strong></p>
 
@@ -266,7 +266,7 @@ fetch('https://api.github.com/users/yuri-ferreira/repos')
 
 ___
 
-## Etapa 03 - Script de Monitoramento
+## Etapa 3 - Script de Monitoramento
 
 <p>É feito um script de monitoramento que a cada minuto confere se o site está no
 ar. Caso esteja offline, o script envia uma mensagem (via webhook) para o Discord. Também é gerado um log, com dia/mês/hora/minuto/segundo</p>
@@ -379,7 +379,7 @@ O ``` echo "$mensagem" ``` imprime o valor da variável e o ```| (Pipe)``` pega 
 o ```tee``` que registra tanto na tela quanto em um arquivo log.
 Após, o ```-a``` acresenta a mensagem ao final do arquivo ao ínves de sobrescrevê-la e o ```$log``` é o caminho para onde está o arquivo ***monitoramento.log***.
 
-## Criar Webhook no Discord
+## Etapa 3.1 - Criar Webhook no Discord
 
 Para criar um webhook no discord basta seguir os passos:
 <ol>
@@ -398,7 +398,7 @@ Dessa maneira, quando o servidor está fora do ar a mensagem fica dessa maneira:
 
 ![Webhooks Discord Exemplo Mensagem](imgs/discord.png)
 
-## Configurar o Cron
+## Etapa 3.2 - Configurar o Cron
 
 Para o funcionamento do script é necessário a sua execução. Pode ser feita de forma manual, porém, como foi pedido deve-se executar a cada minuto. Para tal, é utilizado o cron, um utilitário do sistema que consegue executar o script com um tempo definido.
 
