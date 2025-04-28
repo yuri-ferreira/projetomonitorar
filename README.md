@@ -322,9 +322,9 @@ echo "$mensagem" | tee -a "$log"
 
 echo "$mensagem" | tee -a "$log"
 ```
-Nesse código é onde o funcionamento do script está.É definido a variável de data, contendo dia/mês/hora/minuto/segundo.
+Nesse código é onde o funcionamento do script acontece. É definido a variável de data, contendo dia/mês/hora/minuto/segundo.
 
-Com isso é feito a estrutura de decisão:
+E com isso é feito a estrutura de decisão:
 ```
 if systemctl is-active nginx; then
   mensagem="$data : Site está no ar"
