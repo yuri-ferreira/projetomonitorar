@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+}
+
+.bg-esquerda,
+.bg-direita {
+  flex: 1;
+  min-height: 100%;
+}
+
+.bg-esquerda {
+  background-color: #2D3142;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bg-direita {
+  background-color: #FFFCF9;
+}
+
+.avatar {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  background-image: url(/imgs/1723599015889.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-direita {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+
+.bg-direita h1 {
+  font-size: 128px;
+  margin: 0;
+}
+
+.bg-direita span {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.bg-direita .btns {
+  margin-bottom: 30px;
+}
+
+.bg-direita .skills {
+  width: 790px;
+  height: 180px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.bg-direita .tudo {
+  margin-top: 100px;
+  margin-left: 85px;
+}
+
+.btns button {
+  padding: 5px 25px;
+  margin-right: 25px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btns button:hover {
+  background-color: #8C8C8C;
+  transition: ease-in-out 0.2s;
+  color: #fff;
+}
+
+.btns button img {
+  width: 10px;
+  height: 10px;
+  margin: 0;
+}
+
+
+.bg-esquerda ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.bg-esquerda ul h1 {
+  color: #FFFFFF;
+  border-bottom: solid 10px #A6A6A6;
+  padding-bottom: 20px;
+  width: 620px;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.bg-esquerda ul h2 {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 200;
+  font-size: 36px;
+  margin: 10px;
+}
+
+.bg-esquerda ul strong {
+  color: white;
+}
+
+.bg-esquerda ul .strong2 {
+  color: white;
+  font-weight: bolder;
+}
+
+.bg-esquerda ul span {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+
+#repo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-height: 200px;
+}
+
+.repo {
+  width: 400px;
+  height: 60px;
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.repo:hover {
+  background-color: #8C8C8C;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.repo a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
