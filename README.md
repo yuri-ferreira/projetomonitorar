@@ -271,8 +271,6 @@ ___
 <p>É feito um script de monitoramento que a cada minuto confere se o site está no
 ar. Caso esteja offline, o script envia uma mensagem (via webhook) para o Discord. Também é gerado um log, com dia/mês/hora/minuto/segundo</p>
 
-
-![Log no terminal](imgs/log-terminal.png)
 ![Log salvo](imgs/log-arquivo.png)
 ![Alerta no Discord](imgs/discord-webhook.png)
 
