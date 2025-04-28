@@ -17,11 +17,11 @@
 
 <p>Para configurar o ambiente foi utilizada a ferramenta Subsystem do Windows para a instalação do Ubuntu</p>
 
-### Primeiro, deve-se abrir o CMD como administrador e executar o seguinte comando:
+ Primeiro, deve-se abrir o CMD como administrador e executar o seguinte comando:
 
 ```wsl --install -d Ubuntu```
 
-### Com esse comando é feita a instalação do WSL e do Ubuntu na sua distribuição mais recente disponível.
+ Com esse comando é feita a instalação do WSL e do Ubuntu na sua distribuição mais recente disponível.
 
 ___
 
@@ -29,13 +29,13 @@ ___
 
 <p>Para configurar o servidor web no Ubuntu foi utilizado o gerenciador de pacotes: <strong>APT-GET</strong></p>
 
-### Com o comando ```APT-GET```, instale no Ubuntu o servidor web ```NGINX```.
+ Com o comando ```APT-GET```, instale no Ubuntu o servidor web ```NGINX```.
 
 ```apt-get install nginx```
 
 ![Status do NGINX](imgs/nginx.png)
 
-### Após a instalação, pode ser necessário a configuração da porta que será utilizada. Para isso, acesse ```/etc/nginx/sites-enabled/default```:
+ Após a instalação, pode ser necessário a configuração da porta que será utilizada. Para isso, acesse ```/etc/nginx/sites-enabled/default```:
 
 ```server {
         listen 80 default_server;                                                                                    
@@ -52,7 +52,7 @@ ___
         }
 } 
 ```
-### Com as configurações e instalação em dia basta executar ``` sudo systemctl start nginx.service``` para iniciar o servidor.
+ Com as configurações e instalação em dia basta executar ``` sudo systemctl start nginx.service``` para iniciar o servidor.
 ___
 
 ## Etapa 2.1 - Estilização do site
