@@ -412,11 +412,9 @@ Nessa linha, os vários * informam que o tempo para sua execução é any ou sej
 
 Após isso, o usuário que utiliza o cron deve ter permissão para executar o script e para a escrita do log.
 
-Para as permissões é necessário adicionar o usuário ao grupo "syslog" e alterar as permissões da pasta ``/var/log/`` para os usuários do grupo "syslog" poderem escrever e ler.
+Para as permissões é necessário adicionar o usuário ao grupo "syslog" e garantir que o arquivo de log pertença a esse grupo com permissões apropriadas.
 
 `` sudo usermod -aG syslog USUÁRIO ``
-
-`` sudo chmod 775 /var/log ``
 
 ___
 
