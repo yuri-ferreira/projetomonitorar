@@ -52,7 +52,7 @@ ___
         }
 } 
 ```
- Com as configurações e instalação em dia basta executar ``` sudo systemctl start nginx.service``` para iniciar o servidor.
+ Com as configurações e instalação em dia basta executar ```sudo systemctl start nginx``` para iniciar o servidor.
 ___
 
 ## Etapa 2.1 - Estilização do site
