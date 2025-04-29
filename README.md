@@ -1,5 +1,5 @@
 # Projeto 01 - PB DevOps
-<p>Neste projeto, foi solicitado o desenvolvimento de um script de monitoramento de serviços, junto da configuração de um ambiente Linux , a instalação e preparação de um servidor web com o NGINX, a criação de uma página web. O script de monitoramento vai verificar a cada 1 minuto a disponibilidade do site,pode enviar notificações via webhook e registrar logs com data e horário.
+<p>Neste projeto, foi solicitado o desenvolvimento de um script de monitoramento de serviços, juntamente da configuração de um ambiente Linux , a instalação e preparação de um servidor web com o NGINX, a criação de uma página web. O script de monitoramento verifica a cada minuto a disponibilidade do site, pode enviar notificações via webhook e registrar logs com data e horário.
 </p>
 
 ## Sumário
@@ -35,7 +35,7 @@ ___
 
 ![Status do NGINX](imgs/nginx.png)
 
- Após a instalação, pode ser necessário a configuração da porta que será utilizada. Para isso, acesse ```/etc/nginx/sites-enabled/default```:
+ Após a instalação, pode ser necessária a configuração da porta que será utilizada. Para isso, acesse ```/etc/nginx/sites-enabled/default```:
 
 ```server {
         listen 80 default_server;                                                                                    
